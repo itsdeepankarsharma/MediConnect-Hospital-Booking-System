@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const mongodb = require("mongodb");
 const mongoose = require("mongoose");
 const axios = require("axios");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const authRouter = express.Router();
 
